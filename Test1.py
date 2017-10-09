@@ -1,6 +1,10 @@
-a = 3
-b = 4
 
-c = a*a + b*b
+getal =1
 
-print(c)`
+def myfunc(getal):
+    getal+=1
+    print(getal)
+    return getal
+
+myfunc(getal)
+print(getal)
